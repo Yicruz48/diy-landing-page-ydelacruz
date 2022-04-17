@@ -1,5 +1,5 @@
 /* Typeface */
-@import url('css\fonts');
+@import url('bevellier.css');
 
 @font-face {
 
@@ -7,36 +7,96 @@
     src: url();
 }
 
+
+
 /* Body */
-body{
+body {
     margin: 80px 40px 80px 40px;
 }
 
+/* Image */
+
+img {
+    display: block;
+    max-width: 30%;
+    margin: auto;
+    border-radius: 50%;
+}
+
 /*Navigation*/
-nav{
+nav {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+/* text properties */
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+/* Buttons */
+.button {
+    /* Border */
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* Padding */
+    padding-top: .4em;
+    padding-bottom: .4em;
+    padding-left: 4em;
+    padding-right: 4em;
+    /* text */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.button:hover{
+    border: 3px solid #1684A7;
+    color: #1684A7;
+     transition-duration: 200ms;
+    transition-timing-function: ease-in; 
+  }
+
+.social {
     display: flex;
-     justify-content:space-between ;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2em;
+    margin-right: 2em;
+}
 
-  }
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10em;
+    margin-top: auto;
+    text-transform: uppercase;
 
-  /* Links */
-  a{
-      text-decoration: none;
-      /* advanced text properties */
+    }
 
-  }
-  
-  /* Buttons */
-  .button{
-      /* Border */
-      border: 2px solid #000000;
-      box-sizing: border-box;
-      border-radius: 10px;
-      /* Padding */
-     padding-top: .2em; 
-       padding-bottom: .2em; 
-      padding-left: 4em;
-      padding-right: 4em;
-      /* text */
-      text-align: center;  
-  }
+@media(min-width:800px) {
+    img {
+        max-width: 10%;
+    }
+}
