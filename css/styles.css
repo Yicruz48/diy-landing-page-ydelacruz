@@ -1,1 +1,24 @@
-/* My Styles */
+/* Typeface */
+
+
+/*Navigation*/
+nav{
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  
+  /* Buttons */
+  .button{
+      /* Border */
+      border: 2px solid #000000;
+      box-sizing: border-box;
+      border-radius: 10px;
+      /* Padding */
+     padding-top: .2em; 
+       padding-bottom: .2em; 
+      padding-left: 1em;
+      padding-right: 1em;
+      /* text */
+      text-align: center;  
+  }
