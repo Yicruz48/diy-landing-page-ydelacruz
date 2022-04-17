@@ -1,11 +1,29 @@
 /* Typeface */
+@import url('css\fonts');
 
+@font-face {
+
+    font-family: 'Bevellier-Variable';
+    src: url();
+}
+
+/* Body */
+body{
+    margin: 80px 40px 80px 40px;
+}
 
 /*Navigation*/
 nav{
     display: flex;
-      flex-direction: column;
-      justify-content: center;
+     justify-content:space-between ;
+
+  }
+
+  /* Links */
+  a{
+      text-decoration: none;
+      /* advanced text properties */
+
   }
   
   /* Buttons */
@@ -17,8 +35,8 @@ nav{
       /* Padding */
      padding-top: .2em; 
        padding-bottom: .2em; 
-      padding-left: 1em;
-      padding-right: 1em;
+      padding-left: 4em;
+      padding-right: 4em;
       /* text */
       text-align: center;  
   }
