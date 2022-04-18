@@ -1,14 +1,6 @@
 /* Typeface */
 @import url('bevellier.css');
 
-@font-face {
-
-    font-family: 'Bevellier-Variable';
-    src: url();
-}
-
-
-
 /* Body */
 body {
     margin: 80px 40px 80px 40px;
@@ -37,6 +29,11 @@ nav {
 h1 {
     text-transform: uppercase;
     text-align: center;
+    /* font + styles */
+    font-family: 'Bevellier-Medium';
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
 }
 
 p {
@@ -44,6 +41,12 @@ p {
     margin: auto;
     text-align: center;
     padding-bottom: 20px;
+    /* fonts + styles */
+    font-family: 'Bevellier-Light';
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+    color: #373737;
 }
 
 /* Links */
@@ -51,6 +54,11 @@ a {
     text-decoration: none;
     color: #000000;
     text-transform: uppercase;
+    /* Font + text styles */
+    font-family: 'Bevellier-Medium';
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
 }
 
 /* Buttons */
@@ -69,12 +77,12 @@ a {
     margin-bottom: 10px;
 }
 
-.button:hover{
+.button:hover {
     border: 3px solid #1684A7;
     color: #1684A7;
-     transition-duration: 200ms;
-    transition-timing-function: ease-in; 
-  }
+    transition-duration: 200ms;
+    transition-timing-function: ease-in;
+}
 
 .social {
     display: flex;
@@ -93,7 +101,7 @@ footer {
     margin-top: auto;
     text-transform: uppercase;
 
-    }
+}
 
 @media(min-width:800px) {
     img {
