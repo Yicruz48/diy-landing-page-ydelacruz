@@ -93,6 +93,10 @@ a {
     margin-right: 2em;
 }
 
+svg:hover{
+    cursor: pointer;
+}
+
 footer {
     display: flex;
     flex-direction: column;
